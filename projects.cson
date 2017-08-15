@@ -1,0 +1,10 @@
+[
+  {
+    title: "Dot Files"
+    group: "MAC"
+    paths: [
+      "/Users/bhdicaire/@Tarmac/@Medium/dotFiles"
+    ]
+    devMode: true
+  }
+]

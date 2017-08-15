@@ -1,0 +1,38 @@
+# BH Dicaire's keymap
+
+'atom-text-editor':
+    'ctrl-alt-left home':'editor:move-to-first-character-of-line'
+    'ctrl-alt-right':'editor:move-to-end-of-line'
+    'ctrl-d': 'editor:duplicate-lines'
+    'ctrl-shift-n': 'tree-view:add-folder'
+    'cmd-alt-l': 'atom-beautify:beautify-editor'
+    'cmd-home': 'core:move-to-top'
+    'cmd-end': 'core:move-to-bottom'
+    'ctrl-z': 'editor:move-to-beginning-of-word'
+    'ctrl-x': 'editor:move-to-end-of-word'
+    'ctrl-l': 'find-and-replace:find-next'
+    'ctrl-w': 'editor:delete-to-end-of-word'
+    'ctrl-o': 'editor:delete-to-beginning-of-word'
+    'ctrl-j': 'editor:delete-to-end-of-line'
+    'ctrl-c': 'core:close'
+    'cmd-y': 'editor:delete-line'
+    'cmd-shift-y': 'editor:delete-to-end-of-line'
+    'cmd-l': 'go-to-line:toggle'
+    'cmd-ctrl-l': 'window:reload'
+
+".platform-darwin":
+    "shift-cmd-K": "markdown-writer:insert-link"
+    "shift-cmd-I": "markdown-writer:insert-image"
+    "shift-cmd-C": "markdown-writer:open-cheat-sheet"
+    "cmd-alt-t": "tree-view:toggle"
+    'cmd-alt-v': 'clipboard-plus:toggle'
+
+"atom-workspace":
+    "cmd-k cmd-u": "change-case:upper"
+    "cmd-k cmd-l": "change-case:lower"
+    "cmd-k cmd-f": "change-case:upperFirst"
+    "cmd-<":       "toggle-quotes:toggle"
+
+"body":
+    "cmd-s": "core:save"
+    "cmd-W": "pane:close-other-items"

@@ -1,0 +1,178 @@
+"*":
+  "atom-beautify":
+    apex:
+      disabled: true
+    arduino:
+      disabled: true
+    bash: {}
+    cfml:
+      disabled: true
+    crystal:
+      disabled: true
+    cs:
+      disabled: true
+    css:
+      beautify_on_save: true
+      indent_size: 2
+    general:
+      _analyticsUserId: "9c508976-12aa-4e18-a56e-8822fb8a98c6"
+      analytics: false
+      beautifyEntireFileOnSave: false
+    html:
+      beautify_on_save: true
+      brace_style: "end-expand"
+      default_beautifier: "Pretty Diff"
+      indent_char: "   "
+      wrap_attributes: "force-aligned"
+  "atom-package-deps":
+    ignored: []
+  "clipboard-plus":
+    limit: 20
+    maximumLinesNumber: 4
+    maximumTextLength: 2000
+  core:
+    disabledPackages: [
+      "image-view"
+      "language-csharp"
+      "snippets"
+      "letter-spacing"
+      "metrics"
+      "link"
+      "open-on-github"
+      "package-generator"
+      "styleguide"
+      "welcome"
+      "project-manager"
+      "yaml-sortkey"
+      "bookmarks"
+      "bracket-matcher"
+      "command-palette"
+      "encoding-selector"
+      "fuzzy-finder"
+      "symbols-view"
+      "wrap-guide"
+      "autocomplete-html-entities"
+      "spell-check"
+      "linter-write-good"
+      "dev-live-reload"
+      "file-watcher"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "node_modules"
+      "vendor"
+    ]
+    packagesWithKeymapsDisabled: [
+      "toggle-quotes"
+    ]
+    projectHome: "/Users/bhdicaire/Dropbox/Code"
+    telemetryConsent: "no"
+    themes: [
+      "nucleus-dark-ui"
+      "chester-atom-syntax"
+    ]
+    titleBar: "custom"
+  "custom-title":
+    template: "<%= projectName %> <% if (relativeFilePath) { %>- <%= relativeFilePath %> <% } %> - <%= gitHead %"
+  editor:
+    invisibles: {}
+    lineHeight: 1.2
+    preferredLineLength: 120
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    softWrapHangingIndent: 1
+  "exception-reporting":
+    userId: "709fef53-d60c-8bc1-1e83-6a6736bc060d"
+  "file-watcher":
+    promptWhenChange: true
+  "fuzzy-finder":
+    ignoredNames: [
+      "node_modules"
+      "vendor"
+      ".git"
+    ]
+    preserveLastSearch: true
+  "grammar-token-limit":
+    maxTokensPerLine: 200
+  "highlight-column":
+    lineMode: true
+  linter: {}
+  "linter-ui-default":
+    panelHeight: 60
+  "linter-write-good": {}
+  "markdown-writer":
+    date: "<date>"
+    fileExtension: ".md"
+    italic:
+      after: "*"
+      before: "*"
+    siteDraftsDir: "content/"
+    siteEngine: "jekyll"
+    title: "<title>"
+  "open-recent":
+    listDirectoriesAddedToProject: true
+  "seti-ui":
+    themeColor: "Steel"
+  swackets:
+    colorParens: true
+    colorSquareBrackets: true
+  "tree-view":
+    hideIgnoredNames: true
+    squashDirectoryNames: true
+  welcome:
+    showOnStartup: false
+  wordcount:
+    alwaysOn: true
+    extensions: [
+      "md"
+      "markdown"
+      "readme"
+      "txt"
+      "rst"
+      "adoc"
+      "log"
+      "msg"
+      "asc"
+      ""
+    ]
+    ignorecode: true
+".go.source":
+  editor:
+    preferredLineLength: 120
+    scrollPastEnd: true
+    showInvisibles: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    softWrapHangingIndent: 2
+".makefile.source":
+  editor:
+    preferredLineLength: 120
+    scrollPastEnd: true
+    showInvisibles: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    softWrapHangingIndent: 2
+    tabLength: 4
+".shell-session.text":
+  editor:
+    softWrapAtPreferredLineLength: true
+    softWrapHangingIndent: 1
+".shell.source":
+  editor:
+    softWrapAtPreferredLineLength: true
+    softWrapHangingIndent: 1
+".source.toml":
+  editor:
+    preferredLineLength: 120
+    scrollPastEnd: true
+    showInvisibles: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    softWrapHangingIndent: 2
